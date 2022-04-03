@@ -1,15 +1,18 @@
 .app {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   background-color: #000;
+  height: 100vh;
 }
 
 .app__videos {
   position: relative;
   width: 100%;
   max-width: 500px;
-  height: 100vh;
-  overflow: auto;
+  height: 100%;
+  border-radius: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
   scroll-snap-type: y mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -17,4 +20,10 @@
 
 .app__videos::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .app__videos {
+    border-radius: 0;
+  }
 }
