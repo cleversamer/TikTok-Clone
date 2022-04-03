@@ -1,0 +1,26 @@
+.video-footer {
+  position: relative;
+  bottom: 50px;
+  color: #fff;
+  display: flex;
+}
+
+.video-footer__text {
+  flex: 1;
+}
+
+.video-footer__record {
+  height: 50px;
+  filter: invert(1);
+  animation: spin-record infinite 5s linear;
+}
+
+@keyframes spin-record {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

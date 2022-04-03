@@ -9,8 +9,8 @@
   position: relative;
   width: 100%;
   max-width: 500px;
-  height: 100%;
-  border-radius: 20px;
+  height: 95%;
+  border-radius: 10px;
   overflow-x: hidden;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
@@ -25,5 +25,6 @@
 @media screen and (max-width: 500px) {
   .app__videos {
     border-radius: 0;
+    height: 100%;
   }
 }
