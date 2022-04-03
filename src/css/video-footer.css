@@ -12,11 +12,13 @@
 
 .video-footer__text > h3 {
   padding-bottom: 5px;
+  font-size: 18px;
 }
 
 .video-footer__text > p {
   padding-bottom: 10px;
   margin-left: 10px;
+  font-size: 14px;
 }
 
 .video-footer__icon {
@@ -40,7 +42,7 @@
   filter: invert(1);
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 12px;
   animation: spinTheRecord infinite 5s linear;
 }
 
@@ -50,5 +52,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video-footer {
+    bottom: 140px;
   }
 }

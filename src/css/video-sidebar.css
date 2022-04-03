@@ -1,0 +1,44 @@
+.video-sidebar {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video-sidebar__button {
+  cursor: pointer;
+  color: #fff;
+}
+
+.video-sidebar__button > p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-sidebar {
+    top: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video-sidebar {
+    top: 55%;
+  }
+
+  .video-sidebar__button .MuiSvgIcon-root {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video-sidebar {
+    top: 50%;
+  }
+
+  .video-sidebar__button .MuiSvgIcon-root {
+    font-size: 24px;
+  }
+}
