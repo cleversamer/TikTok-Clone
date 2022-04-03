@@ -2,11 +2,11 @@
 
 ## 🔴 Live Demo
 
-Not live yet...
+[Click here...](https://samer-tiktok.firebaseapp.com/)
 
 ## Description
 
-Tik Tok clone with React & Firebase
+Tik Tok Clone with React & Firebase
 
 ## Getting Started
 
@@ -17,6 +17,7 @@ Tik Tok clone with React & Firebase
 - Firebase
 - MaterialUI
 - MaterialUI Icons
+- React Ticker
 
 ### Installing
 
