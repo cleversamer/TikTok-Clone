@@ -14,6 +14,7 @@ Tik Tok clone with React & Firebase
 
 - React
 - React DOM
+- Firebase
 
 ### Installing
 
