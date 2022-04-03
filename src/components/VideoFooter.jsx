@@ -3,19 +3,19 @@ import Ticker from "react-ticker";
 import { MusicNote } from "@mui/icons-material";
 import "../css/video-footer.css";
 
-const VideoFooter = () => {
+const VideoFooter = ({ channel, description, song }) => {
   return (
     <div className="video-footer">
       <div className="video-footer__text">
-        <h3>@username</h3>
+        <h3>@{channel || "unknown"}</h3>
 
-        <p>this is a description</p>
+        <p>{description || "No description added"}</p>
 
         <div className="video-footer__ticker">
           <MusicNote className="video-footer__icon" />
 
           <Ticker className="ticker" mode="smooth">
-            {({ index }) => <p>Yoooo what's up guys</p>}
+            {({ index }) => <p>{song || "Unknown music"}</p>}
           </Ticker>
         </div>
       </div>

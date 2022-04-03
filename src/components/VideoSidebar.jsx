@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoSidebar = () => {
+const VideoSidebar = ({ likes, comments, shares }) => {
   return (
     <div>
       <h1>VideoSideBar</h1>
