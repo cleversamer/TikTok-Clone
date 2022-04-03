@@ -39,8 +39,8 @@
   height: 50px;
   filter: invert(1);
   position: absolute;
-  bottom: 0;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   animation: spinTheRecord infinite 5s linear;
 }
 
