@@ -28,7 +28,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [cleversamerr/TikTok-Clone](https://github.com/cleversamerr/TikTok-Clone)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|9<br/>Tools used|12/24/23 <br/>Report generated|
+|9<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
